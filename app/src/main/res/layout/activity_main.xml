@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingRight="@dimen/_8sdp"
+        android:paddingBottom="@dimen/_8sdp"
+        android:paddingTop="@dimen/_8sdp"
+        android:paddingLeft="@dimen/_8sdp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Administrasi Sistem Jaringan"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:textStyle="bold"
+                android:textSize="@dimen/_18sdp"
+                android:textColor="@color/black"
+                android:gravity="center"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnsilabus"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:background="@drawable/btn_menu"
+                android:shadowColor="@color/black"
+                android:textColor="@color/black"
+                android:text="Silabus"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnmateri"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="@drawable/btn_menu"
+                android:shadowColor="@color/black"
+                android:textColor="@color/black"
+                android:text="Materi"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:id="@+id/btnjobsheet"
+                android:background="@drawable/btn_menu"
+                android:shadowColor="@color/black"
+                android:textColor="@color/black"
+                android:text="Jobsheet"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="@drawable/btn_menu"
+                android:id="@+id/btnvideo"
+                android:shadowColor="@color/black"
+                android:textColor="@color/black"
+                android:text="Video Tutorial"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:shadowColor="@color/black"
+                android:textColor="@color/black"
+                android:id="@+id/btnlatihan"
+                android:background="@drawable/btn_menu"
+                android:text="Latihan Soal"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:id="@+id/btnabout"
+                android:background="@drawable/btn_menu"
+                android:shadowColor="@color/black"
+                android:textColor="@color/black"
+                android:text="About"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+</ScrollView>

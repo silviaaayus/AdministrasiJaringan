@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.silvia.administrasijaringan">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AdministrasiJaringan"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".About.About"
+            android:label="About"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".Login">
+
+        </activity>
+        <activity
+            android:name=".Latihan.Hasil"
+            android:label="Latihan Soal" />
+        <activity
+            android:name=".Latihan.Soal"
+            android:label="Latihan Soal" />
+        <activity
+            android:name=".Latihan.Latihan"
+            android:label="Latihan Soal"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Video.IsiVideo"
+            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+            android:parentActivityName=".Video.Video"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".Video.Video"
+            android:label="Video"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Jobsheet.Isi"
+            android:label="Jobsheet"
+            android:parentActivityName=".Jobsheet.Jobsheet" />
+        <activity
+            android:name=".Jobsheet.Jobsheet"
+            android:label="Jobsheet"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Materi.IsiMateri"
+            android:label="Materi"
+            android:parentActivityName=".Materi.Materi" />
+        <activity
+            android:name=".Materi.Materi"
+            android:label="Materi"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Silabus.Silabus"
+            android:label="Silabus"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".MainActivity"></activity>
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+</manifest>

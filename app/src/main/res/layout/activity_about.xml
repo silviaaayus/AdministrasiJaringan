@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/_3sdp"
+    android:paddingTop="@dimen/_3sdp"
+    android:paddingLeft="@dimen/_3sdp"
+    android:paddingRight="@dimen/_3sdp"
+    android:orientation="vertical"
+    tools:context=".About.About">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/_18sdp"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"
+                            android:id="@+id/judulA"
+                            android:text="A.	Menu Utama "/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/_15sdp"
+                            android:textColor="@color/black"
+                            android:id="@+id/isiA"
+                            android:text="Halmaan Utama Dimana Pengguna Bisa Melihat Vitur Yang Ada Dalam Aplikasi Berupa Menu Silabus, Menu Materi, Menu Jobsheet, Menu Video Tutorial, Menu Latihan Soal Dan Menu About "/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/_18sdp"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"
+                            android:layout_marginTop="@dimen/_2sdp"
+                            android:id="@+id/judulB"
+                            android:text="B.	Halaman Menu Silabus "/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/_15sdp"
+                            android:textColor="@color/black"
+                            android:id="@+id/isiB"
+                            android:text="Halaman Menu Silbus Adalah Kumpulan Bab Pelajaran Yang Akan Dipelajari "/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/_18sdp"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"
+                            android:layout_marginTop="@dimen/_2sdp"
+                            android:id="@+id/judulC"
+                            android:text="C.	Halaman Menu Materi "/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/_15sdp"
+                            android:textColor="@color/black"
+
+                            android:id="@+id/isiC"
+                            android:text="Halaman Menu Materi Merupakan Halaman Yang Menampilkan Materi-Materi Yang Ada Pada Aplikasi  "/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/_18sdp"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"
+                            android:layout_marginTop="@dimen/_2sdp"
+                            android:id="@+id/judulD"
+                            android:text="D.	Halaman Menu Jobsheet  "/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/_15sdp"
+                            android:textColor="@color/black"
+                            android:id="@+id/isiD"
+                            android:text="Halaman Menu Jobsheet Adalah Halaman Yang Berisi Panduan Yang Digunakan Pengguna Untuk Mempraktekkan Materi Pembelajaran  "/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/_18sdp"
+                            android:textStyle="bold"
+                            android:id="@+id/judulE"
+                            android:textColor="@color/black"
+                            android:layout_marginTop="@dimen/_2sdp"
+                            android:text="E.	Halaman Video Tutorial   "/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/_15sdp"
+                            android:id="@+id/isiE"
+                            android:textColor="@color/black"
+                            android:text="Halaman Video Tutorial Adalah Halaman Yang Berisi Panduan Atau Video Tutorial Dari Topic Materi Yang Di Pilih Oleh Pengguna "/>
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/_18sdp"
+                            android:textStyle="bold"
+                            android:id="@+id/judulF"
+                            android:textColor="@color/black"
+                            android:layout_marginTop="@dimen/_2sdp"
+                            android:text="F.	Halaman Menu Latihan Soal  "/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/_15sdp"
+                            android:id="@+id/isiF"
+                            android:textColor="@color/black"
+                            android:text="Halaman Menu Latihan Soal Adalah Halaman Yang Bersisi Latihan Yang Berguna Untuk Mengukur Kemapuan Dalam Menguasai Materi Setelah Membaca Materi Dan Menonton Video Tutorial "/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/_18sdp"
+                            android:id="@+id/judulG"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"
+                            android:layout_marginTop="@dimen/_2sdp"
+                            android:text="G.	Halaman Menu About   "/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/_15sdp"
+                            android:id="@+id/isiG"
+                            android:textColor="@color/black"
+
+                            android:text="Halaman Menu About Adalah Halaman Yang Bersisi Informasi Tentang Aplikasi Media Pembelajaran Administrasi Sistem Jaringan   "/>
+
+
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/bg_btn_login"
+                            android:id="@+id/btnlogout"
+                            android:gravity="center"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="@dimen/_4sdp"
+                            android:text="Logout"/>
+
+                </LinearLayout>
+
+
+
+        </ScrollView>
+</RelativeLayout>
